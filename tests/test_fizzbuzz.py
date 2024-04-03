@@ -10,3 +10,10 @@ def test_fizzbuzz_with_3_returns_fizz():
     actual = fizzbuzz(3)
 
     assert expected == actual
+
+def test_fizzbuzz_with_5_returns_buzz():
+    expected = "buzz"
+
+    actual = fizzbuzz(5)
+
+    assert expected == actual
